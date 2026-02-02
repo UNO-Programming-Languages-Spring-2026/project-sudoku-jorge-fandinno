@@ -23,5 +23,5 @@ poss(X,Y,D) :- dim(X), dim(Y), dim(D), not init(X,Y).
 
 :- initial(X,Y,N), not sudoku(X,Y,N).
 
-% #show sudoku/3.
+#show sudoku/3.
 #show subgrid/3.
